@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/form.css">
+</head>
+<body>
+    
+    <h2>Student Registration</h2>
+    <hr color="red" size="5px">
+    <br>
+    <br>
+    <form method="post">
+        <label for="fname">Enter Your Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your full name" pattern="^[a-zA-Z ]{2,15}$" required> 
+
+        <br>
+        <br>
+    
+        <label for="">Enter the Password</label>
+        <input type="password" name="mypassword">
+        
+        <br>
+        <br>
+        
+
+        <label for="">Enter your DOB</label>
+        <input type="date" name="myDOB">
+
+        <br>
+        <br>
+        
+
+        <label for="">Enter your Age</label>
+        <input type="number" name="myAge">
+
+        <br>
+        <br>
+
+        <label for="">Select Your Qualification </label>
+        <input type="checkbox" name="edu" value="SSC">SSC
+        <input type="checkbox" name="edu" value="HSC">HSC
+        <input type="checkbox" name="edu" value="UG">UG
+        <input type="checkbox" name="edu" value="PG">PG
+
+        <br>
+        <br>
+
+        <label for="">Select Your Gender</label>
+        <input type="radio" name="edu" value="Male">Male
+        <input type="radio" name="edu" value="Female">Female
+
+        <br>
+        <br>
+
+        <label for="">Upload Your Profile</label>
+        <input type="file" accept="jpg,pdf" name="Profile">
+        
+        <br>
+        <br>
+
+        <label for="">Enter Your Fees</label>
+        <input type="text" name="fees" value="10000/-" readonly> 
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Bank Details</legend>
+            <label for="">Account NO:</label>
+            <input type="text" name="Acc">
+            <label for="">IFSC NO:</label>
+            <input type="text" name="ifsc">
+        </fieldset>
+
+
+        <br>
+        <br>
+        <button type="submit">SUBMIT</button>
+
+    </form>
+</body>
+</html>
